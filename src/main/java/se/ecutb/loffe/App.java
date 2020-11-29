@@ -19,8 +19,8 @@ public class App
         AppUser appUser1 = new AppUser.Builder(UUID.randomUUID(), "test1", "your password").build();
 
         AppUser appUser2 = new AppUser.Builder(UUID.randomUUID(), "test2", "your password")
-                .withFirstName("Arne")
                 .withLastName("Anka")
+                .withFirstName("Arne")
                 .build();
 
         AppUser appUser3 = new AppUser.Builder(UUID.randomUUID(), "test3", "your password")
